@@ -1,0 +1,154 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1900px;
+}
+ 
+header {
+    color: rgba(0, 0, 0, 0.678);
+    background-color: rgb(0, 0, 0);
+    padding: 0.2px;
+    padding-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+ 
+li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 17px;
+}
+li footer {
+    display: inline-block;
+    margin: 5px;
+    font-size: 17px;
+}
+
+ 
+a {
+    text-decoration: none;
+    color: white;
+}
+ 
+a:hover {
+    color: red;
+    transition: 0.4s all;
+ 
+}
+ 
+.cadastre-se {
+    border: 2px solid;
+    border-color:red ;
+    background-color: red;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+ 
+.cadastre-se:hover {
+    background-color: black;
+    color: red;
+    transition: 0.4s all;
+}
+ 
+.container {
+    justify-content: center;
+    color: black;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+.container2 {
+    justify-content: center;
+    color: yellow;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+.h1header {
+    color: white;
+    font-size: 30px;
+}
+ 
+.h2header {
+    color: red;
+    font-size: 40px;
+    margin-left: 20px;
+}
+ 
+h1 {
+    color: black;
+    font-size: 30px;
+}
+ 
+h2 {
+    color: red;
+    font-size: 30px;
+    padding-left: 10px;
+}
+ 
+h3 {
+    color: red;
+    font-size: 30px;
+ 
+}
+.red{
+    color: black;
+    background-color: red;
+    border-radius: 3px;
+}
+ 
+.degrade {
+    background-image: linear-gradient(to left, red, red, black, black);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+/*IMAGENS*/
+.logo {
+    width: 7%;
+    height: auto;
+    align-self: top;
+    position: absolute;
+    top: 0.1px;
+    left: 3%;
+}
+ 
+.titulo {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 190px;
+    margin-bottom: 25px;
+    font-size: 10px;
+}
+@media screen and (max-width: 1020px){
+    .titulo{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+
+    }
+    .grid{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+    }
+
+}

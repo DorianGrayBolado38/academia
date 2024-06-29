@@ -1,0 +1,42 @@
+/* CSS para a tabela de alunos e aulas */
+#tabela-alunos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+
+#tabela-alunos th, #tabela-alunos td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#tabela-alunos th {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#tabela-alunos td {
+    text-align: center;
+}
+
+#tabela-alunos tr:nth-child(even) {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+#tabela-alunos tr:hover {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: black;
+}
+
+/* Outros estilos gerais */
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1900px;
+}

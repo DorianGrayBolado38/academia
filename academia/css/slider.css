@@ -1,0 +1,54 @@
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    width: 100%;
+    flex: 0 0 100%; /* Garante que cada slide ocupe toda a largura do slider */
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    z-index: 2;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* opcional, para centralizar verticalmente também */
+    height: 100vh; /* ajuste conforme necessário */
+  }
+
+  .banner img {
+    max-width: 100%; /* para garantir que a imagem não ultrapasse seu contêiner */
+    max-height: 100%; /* para garantir que a imagem não ultrapasse seu contêiner */
+  }
+  

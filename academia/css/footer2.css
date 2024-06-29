@@ -1,0 +1,38 @@
+footer{
+    color: rgba(0, 0, 0, 0.694);
+    background-color:rgb(75, 7, 7);
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+.imgfooter{
+    width: 40%;
+    height: auto;
+}
+.imgIcon{
+    width: 3%;
+    height: auto;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Para centralizar os ícones horizontalmente */
+    margin: 0 150px;
+    margin-top: 10px; /* Espaçamento superior */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.icon li {
+    margin: 0 1px; /* Espaçamento entre os ícones */
+}
+.footerli{
+    color: black;
+   display: flex;
+   flex-direction: column;
+    margin: 20px;
+    font-size: 20px;
+}
+label{
+    color:black;
+}
